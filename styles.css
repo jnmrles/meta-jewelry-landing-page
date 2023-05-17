@@ -1,31 +1,32 @@
 *{
   margin:0;
   padding:0;
+  font-family: 'Jazz LET';
+
 
 }
 
 main {
-  position: relative;
   width: 100%;
   height: 100vh;
 
 
 }
 
-section {
+.hero , .design{
   width:100%;
   height: 100vh;
 }
 
 article{
-  width:1280px;
   margin: auto;
+
 }
 
 
 .logo{
-  max-width: 10rem;
-  vertical-align: middle;
+  max-width: 15rem;
+
 
 }
 
@@ -33,10 +34,14 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   width: 100%;
-  color: white
+  color: #F8EAD8;
+  gap: 80px;
+  height: 2rem;
+  background-color: #A7727D;
+  opacity: 80%;
 }
 
 nav ul {
@@ -48,7 +53,6 @@ nav ul {
 
 nav li {
 justify-content: space-evenly;
-
 
 }
 
@@ -62,12 +66,15 @@ justify-content: space-evenly;
   align-items: center;
   background-color: transparent;
   gap: 200px;
+  text-align: center ;
+  color: #F8EAD8;
+
 
 
 }
 
-.hero article h1 {
-  font-size: 3rem;
+.hero article h2 {
+  font-size: 5rem;
   color: #F8EAD8;
   background-color: transparent;
 }
@@ -77,18 +84,80 @@ justify-content: space-evenly;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
-}
-
-.hero, .design, .about{
-
-  border: 1px solid black;
   display: flex;
 
 }
 
-.design, .about {
-  margin-top: 0px;
+
+
+
+
+.design{
+  background-color: #F8EAD8;
+}
+.design .container{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  background-color: #F8EAD8;
+
+
 }
 
 
+
+video{
+  object-fit: cover;
+  width: 100%;
+  max-height: 600px
+
+}
+
+
+.info {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.info .header {
+
+  margin: 5%;
+  /* padding: 5%; */
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  gap: 100px;
+  justify-content: center;
+
+}
+
+.info .header > h1 {
+  font-size: x-large;
+}
+
+.info .header > p {
+  align-self: flex-end;
+}
+
+
+.info .cards {
+  display: flex;
+  flex-direction: row;
+  background-color: #F8EAD8;
+  justify-content: space-around;
+}
+
+.info .card {
+  border: solid 1px grey;
+  height: 6rem;
+  width: 12rem;
+}
+
+.info .card > h6{
+  font-size: large;
+  font-weight: lighter;
+}
