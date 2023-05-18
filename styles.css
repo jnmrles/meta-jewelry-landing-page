@@ -171,4 +171,42 @@ video{
   margin-bottom: 10%;
 }
 
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: #F8EAD8;
+}
 
+.diamond.header{
+  margin-top: 4%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 20%;
+margin-bottom: -6%;
+}
+
+
+.diamond.img{
+  margin-bottom: -6%;
+}
+
+
+.diamond.selector {
+  display: flex;
+  flex-direction: row;
+gap: 6rem;;
+
+}
+
+.diamond.card{
+height: 100px;
+ text-align: center;
+}
+
+.bi{
+  height: 30px;;
+}
