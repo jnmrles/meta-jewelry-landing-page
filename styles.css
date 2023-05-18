@@ -25,20 +25,19 @@ article{
 
 
 .logo{
-  max-width: 15rem;
-
-
+  max-width: 11rem;
+  justify-self: flex-start;
+  margin-left: 5%;
 }
 
 header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 100;
   width: 100%;
   color: #F8EAD8;
-  gap: 80px;
   height: 2rem;
   background-color: black;
   opacity: 80%;
@@ -47,14 +46,26 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 8.5rem;
+  justify-content: space-between;
+
+
 
 }
 
-nav li {
-justify-content: space-evenly;
-
+.nav.links{
+  margin-left: -9%;
 }
+
+
+.other.links ul{
+  gap: 10px;
+  margin-right: 3rem;
+}
+
+/* .other.links{
+  margin-right: 5%;
+} */
 
 
 
@@ -118,12 +129,13 @@ video{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: rgb(71, 77, 80);
 
 
 }
 
 .info .header {
-  margin: 3% 4% ;
+  margin: 2% 4% ;
   /* padding: 5%; */
   display: flex;
   flex-direction: row;
@@ -175,38 +187,74 @@ video{
   display: flex;
   flex-direction: column;
   align-items: center;
-background-color: #F8EAD8;
+  justify-content: center;
+  background-color: whitesmoke;
+  color: rgb(73, 78, 81);
 }
 
 .diamond.header{
-  margin-top: 4%;
+margin-top: 4%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-width: 20%;
-margin-bottom: -6%;
+width: 30%;
+margin-bottom: -7%;
 }
+
+.diamond.header > h1 {
+
+  font-weight: lighter;
+  font-size: 190%;
+  margin-bottom: 2% ;
+
+}
+
+.diamond.header > h6 {
+  margin-bottom: 2%;
+}
+
 
 
 .diamond.img{
-  margin-bottom: -6%;
+  margin-bottom: -10%;
 }
 
+
+.diamond.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.diamond.wrapper > h3 {
+  margin-bottom: 50px;
+}
 
 .diamond.selector {
   display: flex;
   flex-direction: row;
-gap: 6rem;;
+  width: 100%;
+  gap: 5px;
+margin-bottom: 5px;;
 
 }
 
 .diamond.card{
-height: 100px;
- text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 50px;;
+  text-align: center;
 }
 
 .bi{
   height: 30px;;
 }
+
+
+
+
