@@ -70,24 +70,27 @@ nav ul {
 
 
 
-.hero article{
+.hero > article{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   background-color: transparent;
-  gap: 200px;
   text-align: center ;
   color: #F8EAD8;
-
-
+  gap: 15rem;
+  margin-top: 18%;
 
 }
+
+
+
 
 .hero article h2 {
   font-size: 5rem;
   color: #F8EAD8;
   background-color: transparent;
+
 }
 
 .hero{
